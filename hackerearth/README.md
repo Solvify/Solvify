@@ -1,6 +1,6 @@
 <div align="center">
 
- <img src="../img/hackerearth.png" height="auto" width="900">
+ <img src="../img/hackerEarth.jpg" height="auto" width="900">
 
  | :warning: WARNING          |
  |:--------------------------:|

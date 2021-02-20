@@ -1,6 +1,6 @@
 <div align="center">
 
- <img src="../img/hackerrank.jpg" height="auto" width="900">
+ <img src="../img/hackerRank.png" height="auto" width="900">
 
  | :warning: WARNING          |
  |:--------------------------:|

@@ -1,6 +1,6 @@
 <div align="center">
 
- <img src="../img/codechef.jpg" height="auto" width="900">
+ <img src="../img/codeChef.png" height="auto" width="900">
 
  | :warning: WARNING          |
  |:--------------------------:|

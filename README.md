@@ -1,11 +1,11 @@
 <p align="center">
 <img src="img/solvify.png" /><br>
-<a href="https://github.com/Solvify/Solvify/blob/master/LICENSE.md" target="_blank"><img src="https://img.shields.io/github/license/solvify/solvify?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Solvify/Solvify/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/solvify/solvify?style=for-the-badge" /></a> <a href="https://github.com/Solvify/Solvify/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Solvify/Solvify?style=for-the-badge" /></a> <a href="https://github.com/Solvify/Solvify/blob/master/README.md#contributors-" target="_blank"><img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/solvify/solvify?style=for-the-badge" /></a>
+<a href="https://github.com/Solvify/Solvify/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Solvify/Solvify?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/Solvify/Solvify/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/solvify/solvify?style=for-the-badge" /></a> <a href="https://github.com/Solvify/Solvify/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Solvify/Solvify?style=for-the-badge" /></a> <a href="https://github.com/Solvify/Solvify/blob/master/README.md#contributors-" target="_blank"><img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/solvify/solvify?style=for-the-badge" /></a>
 </p>
 
 ## Overview
 
-This repository contains the best solutions for practice, daily, weekly, and long challenge from [`#leetcode`](https://github.com/pol-alok/competitive-programming/tree/master/leetcode), [`#codechef`](https://github.com/pol-alok/competitive-programming/tree/master/codechef) and [`#hackerearth`](https://github.com/pol-alok/competitive-programming/tree/master/hackerearth) platforms.
+This repository contains the best solutions for practice, daily, weekly, and long challenge from [`#leetcode`](https://github.com/Solvify/Solvify/tree/master/leetcode), [`#codechef`](https://github.com/Solvify/Solvify/tree/master/codechef) and [`#hackerearth`](https://github.com/Solvify/Solvify/tree/master/hackerearth) platforms.
 <br>
 If you think you can solve a question from any competitive platform better than anyone and let other know your approach.
 Then we welcome your PR.
