@@ -3,7 +3,7 @@
 #include <string>
 #include<vector>
 #include<unordered_map>
-#include <algorithm> 
+#include <algorithm>
 #include <cctype>
 #include <regex>
 #include "Row.h"
@@ -14,6 +14,8 @@ using namespace std;
 
 #ifndef README_H
 #define README_H
+
+Constants constants;
 
 class Readme {
 private:
@@ -32,7 +34,6 @@ private:
     }
 
     string buildSolution(string solutionLink) {
-        Constants constants;
         return constants.images[getLang(solutionLink)] + "(" + solutionLink + ")";
     }
 
@@ -58,6 +59,8 @@ private:
         size_t pos = 0;
         vector<string> tokens;
         string token;
+        if (trim(line) == "")
+            return Row();
         while ((pos = line.find("|")) != string::npos) {
             token = line.substr(0, pos);
             tokens.push_back(trim(token));
@@ -107,10 +110,14 @@ private:
         ifstream file("../" + platform + "/README.md");
         if (file.is_open()) {
             string line;
-            int skip = 9;
+            int skip = 10;
             while (getline(file, line)) {
                 if (--skip < 0) {
+                    if (trim(line) == "")
+                        break;
                     head = insert(head, line);
+                } else {
+                    constants.FILE_PREFIX_DATA += line + "\n";
                 }
             }
             file.close();
@@ -125,10 +132,13 @@ private:
             cout << "File not created!" << endl;
         } else  if (readme.is_open()) {
             string line;
-            int skip = 9;
+            int skip = 10;
             while (getline(readme, line)) {
                 if (--skip < 0) {
-                    records.push_back(getRowFromLineAsElement(line));
+                    Row row = getRowFromLineAsElement(line);
+                    if (!row.id)
+                        break;
+                    records.push_back(row);
                 }
             }
             readme.close();
@@ -159,14 +169,15 @@ private:
     }
 
     int writeDataTofile(Row* head, string platform) {
-        Constants constants;
         ofstream readme("../" + platform + "/README.md");
         if (!readme) {
             cout << "File not created!";
         } else {
             // cout << "File created successfully!" << endl;
-            readme << constants.TABLE_TEMPLATE << endl;
+            readme << constants.FILE_PREFIX_DATA;
             writeData(head, readme);
+            readme << endl;
+            readme << constants.FILE_SUFFIX_DATA << endl;
             readme.close();
         }
         return 0;
@@ -217,7 +228,6 @@ public:
     Readme() {
     }
     string generateSolutionLink(string relativePath) {
-        Constants constants;
         return constants.SILUTION_LINK_PRIFIX + relativePath;
     }
     int addRow(Data data) {

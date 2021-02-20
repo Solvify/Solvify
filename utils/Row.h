@@ -11,7 +11,7 @@ struct Row {
     string problem;
     string solution;
     Row* next;
-    Row() : id(0), idWithLink(""), next(nullptr) {}
+    Row() : id(0), idWithLink(""), problem(""), solution(""), next(nullptr) {}
     Row(int id, string idWithLink, string problem, string solution) : id(id), idWithLink(idWithLink), problem(problem), solution(solution), next(nullptr) {}
     Row(int id, string idWithLink, string problem, string solution, Row* next) : id(id), idWithLink(idWithLink), problem(problem), solution(solution), next(next) {}
     string toRow() {

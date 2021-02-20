@@ -2,12 +2,12 @@
 
  <img src="../img/leetCode.png" height="auto" width="900">
 
- | :warning: WARNING          |
- |:--------------------------:|
+ |                                                 :warning: WARNING                                                 |
+ | :---------------------------------------------------------------------------------------------------------------: |
  | Please solve it on your own first by clicking ID to the corresponding question, before moving on to the solution. |
 
-| ID  | Problem | Solution |
-| :-: | :------ | :------: |
+ | ID  | Problem | Solution |
+ | :-: | :------ | :------: |
 |[`#26`](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|Remove Duplicates from Sorted Array|[<img src="https://img.icons8.com/color/c-plus-plus-logo.png" width="30px" height="30px">](https://github.com/Solvify/Solvify/blob/master/leetcode/2020/december/practice/26-RemoveDuplicatesFromSortedArray.cpp)|
 |[`#69`](https://leetcode.com/problems/sqrtx/)|Sqrt(x)|[<img src="https://img.icons8.com/color/c-plus-plus-logo.png" width="30px" height="30px">](https://github.com/Solvify/Solvify/blob/master/leetcode/2020/december/practice/69-SqrtOfX.cpp)|
 |[`#80`](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|Remove Duplicates from Sorted Array II|[<img src="https://img.icons8.com/color/c-plus-plus-logo.png" width="30px" height="30px">](https://github.com/Solvify/Solvify/blob/master/leetcode/2020/december/dc/80-Day11-RemoveDuplicatesFromSortedArray-II.cpp)|
