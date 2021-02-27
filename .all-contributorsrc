@@ -1,0 +1,25 @@
+{
+  "projectName": "Solvify",
+  "projectOwner": "Solvify",
+  "files": [
+    "CONTRIBUTORS.md"
+  ],
+  "imageSize": 100,
+  "contributors": [
+    {
+      "login": "pol-alok",
+      "name": "Ravikant Pal",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53791094?v=4",
+      "profile": "https://pol-alok.github.io/portfolio/",
+      "contributions": [
+        "content",
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "repoType": "github",
+  "contributorsPerLine": 7,
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

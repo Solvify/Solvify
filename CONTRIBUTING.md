@@ -55,7 +55,6 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 > - Run by hitting play button on right hand corner.
 >   <img src="img/util.png" width="750"/><br>
 > - Deleted all the compiled/interpreted file.
-
 > - Add all the changes with this command: (`git add *`). This will add the changes to your present workspace.
 >   <img src="img/git-add.png" width="750"/><br>
 
@@ -66,13 +65,16 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 
 ---
 
-> - Push the changes: git push
+> - Push the changes: `git push`.
 >   <img src="img/git-push.png" width="750"/><br>
 
 ---
 
 > - Once you push the changes to your repo, Copy the link and pase in browser then Compare & create pull request will appear in GitHub.
 >   <img src="img/pull_request.png" width="750"/><br>
+
+---
+
 > - Open a pull request by clicking the Create pull request button. This allows the repo's maintainers to reviews your work. From here, they can merge it if it is good, or they may ask you for some changes.
 
 ## Here are some 7 Rules
