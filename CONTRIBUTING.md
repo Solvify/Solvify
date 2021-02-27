@@ -66,50 +66,28 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 
 ---
 
-- Push the changes: git push <br>
-  <img src="img/git-push.png" width="750"/><br>
+> - Push the changes: git push
+>   <img src="img/git-push.png" width="750"/><br>
 
-- Once you push the changes to your repo, Go to your forked repository, the Compare & pull request button will appear in GitHub.<br>
-  <img src="img/pull_request.png" width="750"/><br>
+---
 
-- Click it and you'll be taken to this screen.<br>
-  <img src="img/pull_2.png" width="750"/><br>
-  - Open a pull request by clicking the Create pull request button. This allows the repo's maintainers to reviews your work. From here, they can merge it if it is good, or they may ask you for some changes.<br>
+> - Once you push the changes to your repo,Copy the link and pase in browser then Compare & create pull request will appear in GitHub.
+>   <img src="img/pull_request.png" width="750"/><br>
 
-## Creating issue
+---
 
-Issues can be used to keep track of bugs, enhancements, or other requests.
+> - Click it and you'll be taken to this screen.
+>   <img src="img/pull_2.png" width="750"/><br>
+> - Open a pull request by clicking the Create pull request button. This allows the repo's maintainers to reviews your work. From here, they can merge it if it is good, or they may ask you for some changes.
 
-- On GitHub, navigate to the main page of the repository.
-- Under your repository name, click on the Issues button.
-  <img src="img/issue.png" /><br>
-
-- Click New issue.
-  <img src="img/new_issue.png" /><br>
-- If there are multiple issue types, click Get started next to the type of issue you'd like to open.
-  <img src="img/issue_template_get_started_button.png" /><br>
-  - Type a title and description for your issue.
-  - After creating the issue you have to wait until the project maintainer assigns the issue to you.
-  - when you're finished, click Submit new issue.
-    <br>
-
-#### If Still, you have some problem then Do watch this tutorial
-
-[Git & GitHub Tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk) <br>
-
-## Here are some 12 Rules
+## Here are some 7 Rules
 
 #### You should be following while doing Open-Source to make your Contributions shine during the whole process:
 
 - Be Nice, Be Respectful (BNBR)
-- Check if the Issue you created, exists or not.
 - Make proper commit messages and document your PR well.
 - Always add Comments in your Code and explain it at points.
-- Dynamic Input is always preferred over static Driver Code.
 - Squash your commits before you push them.
 - Always create a Pull Request from a Branch; Never from the Master.
 - Follow proper Code conventions. Using i, j in Loops show a poor understanding of Code Quality. Use proper Variable, Function Names.
-- Issues would be served on "First Come, First Serve" basis.
-- Issues would be tagged as Easy, Medium, Hard. Scores would be assigned on the difficulty of Issue you solve.
-- Code would be reviewed by Mentors before they are merged. Every PR requires 3 Reviews.
-- No person can take up more than 2 Issues at a single point of time.
+- Code would be reviewed by Mentors before they are merged. Every PR requires min 2 Reviews.
