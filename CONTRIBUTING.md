@@ -70,7 +70,7 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 
 ---
 
-> - Once you push the changes to your repo, Copy the link and pase in browser then Compare & create pull request will appear in GitHub.
+> - Once you push the changes to your repo, Copy the link and pase in browser then Compare & create pull request will appear in **_GitHub_**.
 >   <img src="img/pull_request.png" width="750"/><br>
 
 ---
