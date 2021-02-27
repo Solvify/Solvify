@@ -23,16 +23,7 @@ But you can Create PR with your favorite language.
 - Review code by your own before creating PR.
 - Make sure code will be well formatted and indented.
 - Make sure your code works before submitting it.
-- Add your entry in your section ( if not present then create ) [CHANGELOG.md](/CHANGELOG.md).
 - Follow [this](/CONTRIBUTING.md) tutorial to add the solution in respective Readmes.
-
-### Where to upload the files
-
-**PLEASE READ THIS**
-
-- Your files should be uploaded directly into the corresponding folder (e.g. if you solve a problem from **leetcode** in **january** in **cpp**, it goes inside the **leetcode** folder within the **january** folder with in the **cpp** folder and so on)
-- **Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so**.
-- Also, be polite with the reviewers - they will be ALWAYS polite to you.
 
 ## Our Contributors ✨
 

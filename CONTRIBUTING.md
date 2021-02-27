@@ -49,7 +49,7 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 > - Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so.
 > - Start Coding. Make apt commits with proper commit messages. Always use git status to see that you have not made changes on the file you were supposed not to.
 > - If you check all working fine then
-> - Add entry in `CHANGELOG.md` as per below in your section if not then create your section.
+> - Add entry in [`CHANGELOG.md`](/CHANGELOG.md). as per below templates in your section if not then create your section.
 >   - `- <PLATFORM_NAME>: <PROBLEM_NAME> (#<PROBLEM_ID>)`
 > - Open `util.cpp` then set all the values in the variables without space.
 > - Run by hitting play button on right hand corner.
