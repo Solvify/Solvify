@@ -32,13 +32,13 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 ---
 
 > - You can now check the branches by pushing in the command: `git branch`. You will see the Master Branch and another branch along with your branch.
->   > - Switch to Development Branch. Never develop on Master Branch. Push in the command: git checkout < NEWLY_CREATED_BRANCH >.<br>
+>   > - Switch to Development Branch. Never develop on Master Branch. Push in the command: git checkout < NEWLY_CREATED_BRANCH >.
 >   > - **_:warning: Note:_** _Created branch should be pushed on that day only when it was created, So for eatch day you have to create new branch and push end of the day._<br> <img src="img/git-checkout.png" width="750"/><br>
 
 ---
 
-> open project on vs code by command : `code .` in current diractory.
-> <img src="img/vs-code.png" width="750"/><br>
+> - Open project on vs code by command : `code .` in current diractory.
+>   <img src="img/vs-code.png" width="750"/><br>
 
 ---
 
@@ -52,15 +52,19 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 > - Add entry in `CHANGELOG.md` as per below in your section if not then create your section.
 >   - `- <PLATFORM_NAME>: <PROBLEM_NAME> (#<PROBLEM_ID>)`
 > - Open `util.cpp` then set all the values in the variables without space.
-> - run by hitting play button on right hand corner.
+> - Run by hitting play button on right hand corner.
 >   <img src="img/util.png" width="750"/><br>
-> - deleted all the compiled/interpreted file.
+> - Deleted all the compiled/interpreted file.
 
-- Add all the changes with this command: (`git add *`). This will add the changes to your present workspace. <br>
-  <img src="img/git-add.png" width="750"/><br>
+> - Add all the changes with this command: (`git add *`). This will add the changes to your present workspace.
+>   <img src="img/git-add.png" width="750"/><br>
 
-- Make a commit. This will save a snapshot of your Project.<br>
-  <img src="img/git-commit.png" width="750"/><br>
+---
+
+> - Make a commit. This will save a snapshot of your Project.
+>   <img src="img/git-commit.png" width="750"/><br>
+
+---
 
 - Push the changes: git push <br>
   <img src="img/git-push.png" width="750"/><br>
