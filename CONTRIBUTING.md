@@ -71,13 +71,8 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 
 ---
 
-> - Once you push the changes to your repo,Copy the link and pase in browser then Compare & create pull request will appear in GitHub.
+> - Once you push the changes to your repo, Copy the link and pase in browser then Compare & create pull request will appear in GitHub.
 >   <img src="img/pull_request.png" width="750"/><br>
-
----
-
-> - Click it and you'll be taken to this screen.
->   <img src="img/pull_2.png" width="750"/><br>
 > - Open a pull request by clicking the Create pull request button. This allows the repo's maintainers to reviews your work. From here, they can merge it if it is good, or they may ask you for some changes.
 
 ## Here are some 7 Rules
