@@ -21,10 +21,10 @@ But you can Create PR with your favorite language.
 ## Contributing Guidelines
 
 - Review code by your own before creating PR.
-- Make sure code will be well formatted and indented ( [`Use Prettier`]() ) .
+- Make sure code will be well formatted and indented.
 - Make sure your code works before submitting it.
 - Add your entry in your section ( if not present then create ) [CHANGELOG.md](/CHANGELOG.md).
-- Follow [this]() tutorial to add the solution in respective Readmes.
+- Follow [this](/CONTRIBUTING.md) tutorial to add the solution in respective Readmes.
 
 ### Where to upload the files
 
