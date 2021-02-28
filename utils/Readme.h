@@ -25,8 +25,8 @@ private:
         return (wsback <= wsfront ? string() : string(wsfront, wsback));
     }
 
-    int extractIdFromIdWithLink(string idWithLink) {
-        return stoi(idWithLink.substr(3, idWithLink.find("]") - 4));
+    string extractIdFromIdWithLink(string idWithLink) {
+        return idWithLink.substr(3, idWithLink.find("]") - 4);
     }
 
     string getLang(string newSolutionLink) {
@@ -41,7 +41,7 @@ private:
         string idWithLink = "[`#" + data.id + "`](" + data.problemLink + ")";
         string program = data.problemName;
         string solution = buildSolution(data.solutionLink);
-        return new Row(stoi(data.id), idWithLink, program, solution, next);
+        return new Row(data.id, idWithLink, program, solution, next);
     }
 
     Row* getRowFromLine(string line) {
@@ -70,7 +70,7 @@ private:
     }
 
     Row* insert(Row* head, Data data) {
-        if ((head == nullptr) || !(head->id < stoi(data.id))) {
+        if ((head == nullptr) || !(head->id < data.id)) {
             return buildNewRow(data, head);
         }
         head->next = insert(head->next, data);
@@ -86,7 +86,7 @@ private:
     }
 
     bool insertSolution(Row* head, Data data) {
-        if (head->id == stoi(data.id)) {
+        if (head->id == data.id) {
             if (isCurrentLangSolutionExixts(head->solution, getLang(data.solutionLink))) {
                 return false;
             } else {
@@ -136,7 +136,7 @@ private:
             while (getline(readme, line)) {
                 if (--skip < 0) {
                     Row row = getRowFromLineAsElement(line);
-                    if (!row.id)
+                    if (row.id == "")
                         break;
                     records.push_back(row);
                 }
@@ -146,17 +146,8 @@ private:
         return records;
     }
 
-    bool searchWithId(vector<Row>& records, int start, int end, int id) {
-        int mid = (end + start) / 2;
-        if (start <= end) {
-            if (records[mid].id == id)
-                return true;
-            else if (records[mid].id > id)
-                return searchWithId(records, start, mid - 1, id);
-            else
-                return searchWithId(records, mid + 1, end, id);
-        } else return false;
-
+    bool searchWithId(vector<Row>& records, int start, int end, string id) {
+        return binary_search(records.begin(), records.end(), Row(id));
     }
 
     void writeData(Row* curr, ofstream& readme) {
@@ -194,7 +185,7 @@ private:
 
     bool addNewRow(Data data) {
         vector<Row> records = readDataFromFileAsArray(data.platform);
-        if (records.size() != 0 && searchWithId(records, 0, records.size(), stoi(data.id))) {
+        if (records.size() != 0 && searchWithId(records, 0, records.size(), data.id)) {
             cout << "Given Id #" + data.id + " already exists!\n" << endl;
             return false;
         }
@@ -209,7 +200,7 @@ private:
     bool addSolution(Data data) {
         vector<Row> records = readDataFromFileAsArray(data.platform);
 
-        if (!searchWithId(records, 0, records.size(), stoi(data.id))) {
+        if (!searchWithId(records, 0, records.size(), data.id)) {
             cout << "Given Id #" + data.id + " not exists!\nPlease check and add." << endl;
             return false;
         }

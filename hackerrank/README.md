@@ -8,5 +8,6 @@
 
 | ID  | Problem | Solution |
 | :-: | :------ | :------: |
+|[`#RLL`](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem)|Reverse a linked list|[<img src="https://img.icons8.com/color/c-plus-plus-logo.png" width="30px" height="30px">](https://github.com/Solvify/Solvify/blob/master/hackerrank/2021/february/practice/cpp/ReverseALinkedList.cpp)|
 
 </div>
