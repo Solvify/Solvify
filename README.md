@@ -5,14 +5,14 @@
 
 ## Overview
 
-This repository contains the best solutions for practice, daily, weekly, and long challenge from [`#leetcode`](https://github.com/Solvify/Solvify/tree/master/leetcode), [`#codechef`](https://github.com/Solvify/Solvify/tree/master/codechef) and [`#hackerearth`](https://github.com/Solvify/Solvify/tree/master/hackerearth) platforms.
+This repository contains the best solutions for practice, daily, weekly, and long challenge from [`#LeetCode`](https://github.com/Solvify/Solvify/tree/master/leetcode), [`#CodeChef`](https://github.com/Solvify/Solvify/tree/master/codechef),[`#HackerRank`](https://github.com/Solvify/Solvify/tree/master/hackerrank) and [`#HackerEarth`](https://github.com/Solvify/Solvify/tree/master/hackerearth) platforms.
 <br>
 If you think you can solve a question from any competitive platform better than anyone and let other know your approach.
 Then we welcome your PR.
 
 ## Contents
 
-Currently, we are covering four platforms ( [`#leetcode`](https://leetcode.com/), [`#CodeChef`](https://www.codechef.com/), [`#HackerRank`](https://www.hackerrank.com/), [`#HackerEarth`](https://www.hackerearth.com/) ) and four language `C++`, `Java`, `JavaScript`, `Python`.
+Currently, we are covering four platforms ( [`#leetcode`](https://leetcode.com/), [`#codechecf`](https://www.codechef.com/), [`#hackerrank`](https://www.hackerrank.com/), [`#hackerearth`](https://www.hackerearth.com/) ) and four language `C++`, `Java`, `JavaScript`, `Python`.
 <br>
 But you can Create PR with your favorite language.
 
