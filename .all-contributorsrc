@@ -16,6 +16,24 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "manjesh317",
+      "name": "Manjesh Kumar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42302544?v=4",
+      "profile": "https://github.com/manjesh317",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sachin200697",
+      "name": "Sachin Kumar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/36040912?v=4",
+      "profile": "https://github.com/sachin200697",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",
