@@ -51,6 +51,16 @@
   - leetcode: Palindrome Linked List. (#234)
   - leetcode: Merge In Between Linked Lists. (#1669)
   - leetcode: Swapping Nodes in a Linked List. (#1721)
+  - codechef: Chef and String. (#CHERSTR1)
+  - codechef: Chef and Card Game. (#CRDGAME)
+  - codechef: First and Last. (#FLOW004)
+  - codechef: Reverse the number. (#FLOW007)
+  - codechef: ATM. (#HS08TEST)
+  - codechef: Lapindromes. (#LAPIN)
+  - codechef: Lucky four. (#LUCKFOUR)
+  - codechef: Turbo sort. (#TSORT)
+  - hackerearth: Repeated K times. (#RKT)
+  - hackerrank: Reverse a linked list. (#RLL)
 - Sachin
   - leetcode: Intersection of Two Linked Lists. (#160)
 - Sikandar

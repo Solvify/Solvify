@@ -8,5 +8,6 @@
 
 | ID  | Problem | Solution |
 | :-: | :------ | :------: |
+|[`#RKT`](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/repeated-k-times/)|Repeated K Times|[<img src="https://img.icons8.com/color/c-plus-plus-logo.png" width="30px" height="30px">](https://github.com/Solvify/Solvify/blob/master/hackerearth/2021/february/practice/cpp/RepeatedKTimes.cpp)|
 
 </div>
